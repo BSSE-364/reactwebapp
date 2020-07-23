@@ -135,7 +135,7 @@ function App() {
         <>
             <ContextValues.Provider value={valuesObject}>
                 <div>
-                    <Router>
+                    <Router basename={process.env.PUBLIC_URL} >
                         <Header />
                         <Switch>
                             <Route path="/" exact component={MainProducts} />
