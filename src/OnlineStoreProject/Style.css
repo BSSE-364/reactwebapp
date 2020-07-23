@@ -1,0 +1,14 @@
+.react-table input{
+    color: red;
+    border: none;
+}
+.active_class{
+    border-bottom: 2px solid #2abf2c;
+    background-color: #ebecf1;
+}
+.linkNav{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+border-radius: 4px;
+}
