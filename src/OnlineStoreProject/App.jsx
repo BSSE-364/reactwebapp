@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect, useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import MainProducts from '../OnlineStoreProject/MainProducts'
 import CartItemsList from '../OnlineStoreProject/CartItemsList'
@@ -135,13 +135,11 @@ function App() {
         <>
             <ContextValues.Provider value={valuesObject}>
                 <div>
-                    <Router basename={process.env.PUBLIC_URL} >
                         <Header />
                         <Switch>
                             <Route path="/" exact component={MainProducts} />
                             <Route path="/cartItemsList" exact component={CartItemsList} />
                         </Switch>
-                    </Router>
                 </div>
             </ContextValues.Provider>
 
