@@ -1,0 +1,12 @@
+ .load {
+    font-size: 30px;
+    float: left;
+    padding-left: 20px
+}
+.imgLoad {
+    float: left
+}
+.loader-container {
+    margin-left: 40%;
+    margin-top: 18%
+}
